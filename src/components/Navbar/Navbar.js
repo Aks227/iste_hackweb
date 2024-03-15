@@ -26,9 +26,6 @@ function App() {
           <a className="nav-link" href="/./#Secondm">About us</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/./#Thirdm">Our story</a>
-        </li>
-        <li className="nav-item">
           <a className="nav-link" href="/./#users">Installation</a>
         </li>
         <li className="nav-item">
