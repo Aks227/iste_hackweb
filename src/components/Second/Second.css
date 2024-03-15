@@ -1,0 +1,68 @@
+.Secondm{
+width: 100vw;
+height: fit-content;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.Secondmbox{
+    /* background-color: black; */
+    color: white;
+    width: 90%;
+    height: 80%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Secondmboxtxt{
+    height: 60%;
+    width: 90%;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(40, 40, 40);
+    overflow-y: scroll;
+    border: 1px dotted white;
+    border-radius: 30px;
+    color: white;
+    padding: 3%;
+    font-size: medium;
+    font-weight: lighter;
+
+}
+.anims{
+    display: flex;
+    flex-direction: column;
+}
+.smtxth{
+    font-size: 2em;
+}
+@media (max-width: 480px){
+    .Secondmbox{
+        /* background-color: black; */
+        color: white;
+        width: 90%;
+        height: 90%;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .Secondmboxtxt{
+        width: 100%;
+        height: 90vh;
+    }
+    .anims{
+        display: flex;
+        flex-direction: row-reverse;
+        width: fit-content;
+    }
+    .gitsvg{
+        display: none;
+    }
+}
+
+@supports (-webkit-appearance:none) {
+    body{
+        background-image: url('./stars.jpg');
+  }
+  }

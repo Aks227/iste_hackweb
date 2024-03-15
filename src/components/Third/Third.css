@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins||Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+.Thirdm{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.osh{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 6em;
+    width: 100%;
+    color: white;
+    padding-left: 50px;
+    text-align: left;
+}
+.Thirdmbox{
+    height: 80%;
+    width: 90%;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(40, 40, 40);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 1px dotted white;
+    border-radius: 30px;
+    color: white;
+    padding: 3%;
+    font-size: medium;
+}
+.workflowimg{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+#wkimg{
+    height: 50%;
+    width: 50%;
+}
+@media only screen and (max-width: 480px){
+    .Thirdm{
+        min-height: 100vh;
+    }
+    .osh{
+        font-size: 3em;
+        white-space: nowrap;
+        padding: 0px;
+    }
+}
+@supports (-webkit-appearance:none) {
+    body{
+        background-image: url('./stars.jpg');
+  }
+  }

@@ -1,0 +1,40 @@
+.Secondm{
+width: 100vw;
+height: fit-content;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.Secondmbox{
+    /* background-color: black; */
+    color: white;
+    width: 90%;
+    height: 100%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Secondmboxtxt{
+background-color: black;
+height: 50vh;
+width: 70%;
+border-radius: 30px;
+border: 1px solid white;
+
+}
+@media (max-width: 480px){
+    .Secondmbox{
+        /* background-color: black; */
+        color: white;
+        width: 90%;
+        height: 90%;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .Secondmboxtxt{
+        width: 100%;
+    }
+}
